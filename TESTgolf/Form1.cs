@@ -24,7 +24,7 @@ namespace TESTgolf
         }
         private void TESTGOLF_Load(object sender, EventArgs e)
         {            
-           // lbMedlemsregister.DataSource = Databas.GetGolfspelarlista();
+            lbMedlemsregister.DataSource = Databas.GetGolfspelarlista();
             //används ej i nuläget
         }
         private void btnRegistrera_Click(object sender, EventArgs e)

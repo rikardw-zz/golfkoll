@@ -92,7 +92,6 @@
             this.btnTavlingar = new System.Windows.Forms.Button();
             this.txtTaBortId = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.txtVisaMedlemmar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label22
@@ -654,23 +653,12 @@
             this.label23.TabIndex = 255;
             this.label23.Text = "Ange GolfID";
             // 
-            // txtVisaMedlemmar
-            // 
-            this.txtVisaMedlemmar.Location = new System.Drawing.Point(272, 701);
-            this.txtVisaMedlemmar.Name = "txtVisaMedlemmar";
-            this.txtVisaMedlemmar.Size = new System.Drawing.Size(100, 23);
-            this.txtVisaMedlemmar.TabIndex = 256;
-            this.txtVisaMedlemmar.Text = "Visa medlemmar";
-            this.txtVisaMedlemmar.UseVisualStyleBackColor = true;
-            this.txtVisaMedlemmar.Click += new System.EventHandler(this.txtVisaMedlemmar_Click);
-            // 
             // TESTGOLF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1042, 766);
-            this.Controls.Add(this.txtVisaMedlemmar);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.txtTaBortId);
             this.Controls.Add(this.btnTavlingar);
@@ -809,7 +797,6 @@
         private System.Windows.Forms.Button btnTavlingar;
         private System.Windows.Forms.TextBox txtTaBortId;
         internal System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button txtVisaMedlemmar;
     }
 }
 
