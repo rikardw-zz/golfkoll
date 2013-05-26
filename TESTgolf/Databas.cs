@@ -68,7 +68,7 @@ namespace TESTgolf
             conn.Close();
             return tävlingslista;
         }
-
+        //Ska detta vara med?
      /*   public static List<string> GetGolfSpelarInfo(int GolfId)
         {
             List<string> medlemslista = new List<string>();
