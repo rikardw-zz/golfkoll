@@ -60,7 +60,15 @@ namespace TESTgolf
             {
                 Tävlingar aktuelltävling = new Tävlingar
                 {
-                    TävlingsNamn = (string)(dr["tavlingsnamn"])
+                    tavlingId = (int)(dr["id"]), 
+                    tavlingsNamn = (string)(dr["tavlingsnamn"]),
+                    startDatum = (DateTime)(dr["startdatum"]),
+                    slutDatum = (DateTime)(dr["slutdatum"]),
+                    sistaAnmalningsDatum = (DateTime)(dr["sista_anmalningsdatum"]),
+                    sistaAvbokningsDatum = (DateTime)(dr["sista_avbokningsdatum"]),
+                    klassA = (double)(dr["klass_a"]),
+                    klassB = (double)(dr["klass_b"]),
+                    klassC = (double)(dr["klass_c"]),
                 };
 
                 tävlingslista.Add(aktuelltävling);
@@ -192,32 +200,31 @@ namespace TESTgolf
             conn.Close();
             }
 
- /*       public static List<string> TävlingsSpelar(int spelarID)
+        public static List<int> TävlingsSpelar(int tävlingID)
         {
-            List<string> tävlingsspel = new List<string>();
+            List<int> tävlingsspel = new List<int>();
             ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[conString];
             NpgsqlConnection conn = new NpgsqlConnection(settings.ConnectionString);
             conn.Open();
-            NpgsqlCommand command7 = new NpgsqlCommand(@"SELECT golfspelare.fornamn
+            NpgsqlCommand command7 = new NpgsqlCommand(@"SELECT golf_id
                                                         FROM
-                                                        spelar_resultat,
-                                                        golfspelare
+                                                        spelar_resultat
                                                         WHERE
-                                                        spelar_resultat.golf_id = golfspelare.golf_id
-                                                        AND tavlings_id =:tävlingsid", conn); //förmodligen något fel på denna rad
+                                                        tavlings_id =:tävlingsid", conn); //förmodligen något fel på denna rad
 
             command7.Parameters.Add(new NpgsqlParameter("tävlingsid", DbType.Int32));
-            command7.Parameters[0].Value = Convert.ToInt32(spelarID);
+            command7.Parameters[0].Value = Convert.ToInt32(tävlingID);
             NpgsqlDataReader dr = command7.ExecuteReader();
             while (dr.Read())
             {
-                tävlingsspel.Add((string)dr["fornamn"]);  
+                tävlingsspel.Add((int)dr["golf_id"]);  
             }
             conn.Close();
             return tävlingsspel;
         }
-  */
-        public static List<string> GetTävlingsFromSpelare(int test)
+     
+  
+    /*    public static List<string> GetTävlingsFromSpelare(int test)
         {
             List<string> golflista = new List<string>();
             ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[conString];
@@ -242,6 +249,6 @@ namespace TESTgolf
             return golflista;
         }
 
-
+        */
     }
 }

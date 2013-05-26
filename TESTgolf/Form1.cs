@@ -144,7 +144,7 @@ namespace TESTgolf
     //        txtHandicap.Text = markeradSpelare.Handicap.ToString();
             
             //nytt tillägg:
-            lbGolfspelare.DataSource = Databas.GetTävlingsFromSpelare(markeradSpelare.GolfId);
+            //lbGolfspelare.DataSource = Databas.GetTävlingsFromSpelare(markeradSpelare.GolfId);
         }
 
         private void btnTavlingar_Click(object sender, EventArgs e)
@@ -153,9 +153,8 @@ namespace TESTgolf
         }
         private void lbTävlingar_SelectedIndexChanged(object sender, EventArgs e)
         {
-            markeradTävling = (Tävlingar) lbTävlingar.SelectedItem;
-     //       lbGolfspelare.DataSource = Databas.TävlingsSpelar(markeradTävling.TävlingsID);
-            txtTävlingsnamn.Text = markeradTävling.TävlingsNamn;  
+            markeradTävling = (Tävlingar)lbTävlingar.SelectedItem;
+            lbGolfspelare.DataSource = Databas.TävlingsSpelar(markeradTävling.tavlingId);
         } 
 
         private void btnLägg_till_i_tävling_Click(object sender, EventArgs e)

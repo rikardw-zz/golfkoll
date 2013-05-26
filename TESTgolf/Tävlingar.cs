@@ -7,20 +7,20 @@ namespace TESTgolf
 {
     class Tävlingar 
     { 
-        public int TävlingsID { get; set; }
-        public string TävlingsNamn { get; set; }
-        public DateTime StartDatum { get; set; }
-        public DateTime StoppDatum { get; set; }
-        public DateTime AnmälningsDatum { get; set; }
-        public DateTime AvbokningsDatum { get; set; }
-        public double KlassA { get; set; }
-        public double KlassB { get; set; }
-        public double KlassC { get; set; }
+        public int tavlingId { get; set; }
+        public string tavlingsNamn { get; set; }
+        public DateTime startDatum { get; set; }
+        public DateTime slutDatum { get; set; }
+        public DateTime sistaAnmalningsDatum { get; set; }
+        public DateTime sistaAvbokningsDatum { get; set; }        
+        public double klassA { get; set; }
+        public double klassB { get; set; }
+        public double klassC { get; set; }
         
 
         public override string ToString()
         {
-            return TävlingsNamn;
+            return tavlingsNamn;
         }        
     }
 }
