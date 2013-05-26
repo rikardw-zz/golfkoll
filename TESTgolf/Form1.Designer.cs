@@ -89,7 +89,6 @@
             this.txtPersonnr = new System.Windows.Forms.TextBox();
             this.txtEfternamn = new System.Windows.Forms.TextBox();
             this.txtFornamn = new System.Windows.Forms.TextBox();
-            this.btnTavlingar = new System.Windows.Forms.Button();
             this.txtTaBortId = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -627,16 +626,6 @@
             this.txtFornamn.Size = new System.Drawing.Size(100, 20);
             this.txtFornamn.TabIndex = 192;
             // 
-            // btnTavlingar
-            // 
-            this.btnTavlingar.Location = new System.Drawing.Point(399, 82);
-            this.btnTavlingar.Name = "btnTavlingar";
-            this.btnTavlingar.Size = new System.Drawing.Size(75, 23);
-            this.btnTavlingar.TabIndex = 253;
-            this.btnTavlingar.Text = "Tävlingar";
-            this.btnTavlingar.UseVisualStyleBackColor = true;
-            this.btnTavlingar.Click += new System.EventHandler(this.btnTavlingar_Click);
-            // 
             // txtTaBortId
             // 
             this.txtTaBortId.Location = new System.Drawing.Point(24, 376);
@@ -661,7 +650,6 @@
             this.ClientSize = new System.Drawing.Size(1042, 766);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.txtTaBortId);
-            this.Controls.Add(this.btnTavlingar);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.txtPostnummer);
             this.Controls.Add(this.label21);
@@ -794,7 +782,6 @@
         internal System.Windows.Forms.TextBox txtPersonnr;
         internal System.Windows.Forms.TextBox txtEfternamn;
         internal System.Windows.Forms.TextBox txtFornamn;
-        private System.Windows.Forms.Button btnTavlingar;
         private System.Windows.Forms.TextBox txtTaBortId;
         internal System.Windows.Forms.Label label23;
     }

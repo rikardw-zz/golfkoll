@@ -25,7 +25,7 @@ namespace TESTgolf
         private void TESTGOLF_Load(object sender, EventArgs e)
         {            
             lbMedlemsregister.DataSource = Databas.GetGolfspelarlista();
-            //används ej i nuläget
+            lbTävlingar.DataSource = Databas.GetTävlingslista();
         }
         private void btnRegistrera_Click(object sender, EventArgs e)
         {
@@ -66,19 +66,6 @@ namespace TESTgolf
 
             Golfspelare nySpelare = new Golfspelare { GolfId = Convert.ToInt32(txtPersonnr.Text), Fornamn = txtFornamn.Text, Efternamn = txtEfternamn.Text, Mobil = txtMobil.Text, Adress = txtGatuadress.Text, GatuNr = txtGatunummer.Text, PostNr = Convert.ToInt32(txtPostnummer.Text), Email = txtEmail.Text, Medlemsavg = medlemsavg, Handicap = txtHandicap.Text, Status = status };
             
-
-       /*   int personnummer = Convert.ToInt32(txtPersonnr.Text);
-            string fn = txtFornamn.Text;
-            string en = txtEfternamn.Text;
-            string tfn = txtMobil.Text;
-            string adr = txtGatuadress.Text;
-            string gnr = txtGatunummer.Text;
-            int pnr = Convert.ToInt32(txtPostnummer.Text);
-            string email = txtEmail.Text;
-            
-            string hp = txtHandicap.Text;  //Ändrar till string från double så kan man skicka data till databasen
-
-            */
             string golfid = nySpelare.GolfId.ToString() + idnummer.ToString(); //lägger över talen till sträng så jag kan lägga ihop dem
             nySpelare.GolfId = Convert.ToInt32(golfid); //konverterar om till int så det går in i databasen                        
             
@@ -162,7 +149,7 @@ namespace TESTgolf
 
         private void btnTavlingar_Click(object sender, EventArgs e)
         {
-            lbTävlingar.DataSource = Databas.GetTävlingslista();
+            
         }
         private void lbTävlingar_SelectedIndexChanged(object sender, EventArgs e)
         {
