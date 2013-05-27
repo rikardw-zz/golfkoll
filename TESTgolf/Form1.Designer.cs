@@ -91,6 +91,8 @@
             this.txtFornamn = new System.Windows.Forms.TextBox();
             this.txtTaBortId = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.txtResultatId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label22
@@ -274,6 +276,7 @@
             this.btnUppdatera_resultat.TabIndex = 236;
             this.btnUppdatera_resultat.Text = "Uppdatera resultat";
             this.btnUppdatera_resultat.UseVisualStyleBackColor = true;
+            this.btnUppdatera_resultat.Click += new System.EventHandler(this.btnUppdatera_resultat_Click);
             // 
             // txtResultat
             // 
@@ -643,12 +646,30 @@
             this.label23.TabIndex = 255;
             this.label23.Text = "Ange GolfID";
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(384, 269);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(84, 13);
+            this.label24.TabIndex = 262;
+            this.label24.Text = "Tävlingsnummer";
+            // 
+            // txtResultatId
+            // 
+            this.txtResultatId.Location = new System.Drawing.Point(387, 292);
+            this.txtResultatId.Name = "txtResultatId";
+            this.txtResultatId.Size = new System.Drawing.Size(65, 20);
+            this.txtResultatId.TabIndex = 261;
+            // 
             // TESTGOLF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1042, 676);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.txtResultatId);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.txtTaBortId);
             this.Controls.Add(this.label22);
@@ -785,6 +806,8 @@
         internal System.Windows.Forms.TextBox txtFornamn;
         private System.Windows.Forms.TextBox txtTaBortId;
         internal System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox txtResultatId;
     }
 }
 

@@ -19,7 +19,8 @@ namespace TESTgolf
     
         public TESTGOLF()
         {
-            InitializeComponent();            
+            InitializeComponent();          
+            //test
             
         }
         private void TESTGOLF_Load(object sender, EventArgs e)
@@ -159,7 +160,7 @@ namespace TESTgolf
 
         private void btnLägg_till_i_tävling_Click(object sender, EventArgs e)
         {       
-            Databas.AddSpelareTillTävling(txtFornamn.Text, txtEfternamn.Text,txtTävlingsnamn.Text);
+            Databas.AddSpelareTillTävling(txtFornamn.Text, txtEfternamn.Text, Convert.ToString(lbTävlingar.SelectedValue));
         }
 
         private void btnTa_bort_spelare_Click(object sender, EventArgs e)
@@ -213,6 +214,11 @@ namespace TESTgolf
 
         }
 
+        private void btnUppdatera_resultat_Click(object sender, EventArgs e)
+        {
+            ResultatPåSPelare();
+        }
+
         
    /*     private void spelarTävling()
         {
@@ -241,6 +247,31 @@ namespace TESTgolf
             }
         }
     */
+        private void ResultatPåSPelare()
+        {
+            int resultat = Convert.ToInt32(txtResultat.Text);
+            int golfid = Convert.ToInt32(txtPersonnr.Text);
+            int tavlingsid = Convert.ToInt32(txtResultatId.Text);
+
+
+            NpgsqlConnection conn = new NpgsqlConnection("Server=127.0.0.1;Port=5432;Database=golfkolltest;User Id=patrick;Password=patrick");
+            try
+            {
+                string sql = "UPDATE spelar_resultat SET resultat = " + resultat + " WHERE golf_id = " + golfid + " AND tavlings_id = " + tavlingsid + "";
+                conn.Open();
+                NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+                int antal = command.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+        }
     }
         
 }
