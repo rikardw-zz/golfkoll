@@ -122,7 +122,7 @@ namespace TESTgolf
                 command3.Transaction = trans;
                 int GolfId = (int)command3.ExecuteScalar();
 
-
+                //Tävlingsnamn är tomt när den anropas
                 NpgsqlCommand command4 = new NpgsqlCommand(@"SELECT id
                                                         FROM tavling
                                                         WHERE tavlingsnamn = :TävlingsNamn", conn);
@@ -200,15 +200,16 @@ namespace TESTgolf
             conn.Close();
             }
 
-        public static List<int> TävlingsSpelar(int tävlingID)
+        public static List<string> TävlingsSpelar(int tävlingID)
         {
-            List<int> tävlingsspel = new List<int>();
+            List<string> tävlingsspel = new List<string>();
             ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[conString];
             NpgsqlConnection conn = new NpgsqlConnection(settings.ConnectionString);
             conn.Open();
-            NpgsqlCommand command7 = new NpgsqlCommand(@"SELECT golf_id
+            NpgsqlCommand command7 = new NpgsqlCommand(@"SELECT fornamn, efternamn
                                                         FROM
-                                                        spelar_resultat
+                                                        golfspelare JOIN
+                                                        spelar_resultat ON golfspelare.golf_id=spelar_resultat.golf_id
                                                         WHERE
                                                         tavlings_id =:tävlingsid", conn); //förmodligen något fel på denna rad
 
@@ -217,7 +218,7 @@ namespace TESTgolf
             NpgsqlDataReader dr = command7.ExecuteReader();
             while (dr.Read())
             {
-                tävlingsspel.Add((int)dr["golf_id"]);  
+                tävlingsspel.Add(dr["fornamn"] + " " + dr["efternamn"]);  
             }
             conn.Close();
             return tävlingsspel;

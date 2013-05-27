@@ -208,6 +208,11 @@ namespace TESTgolf
 
         }
 
+        private void lbGolfspelare_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         
    /*     private void spelarTävling()
         {

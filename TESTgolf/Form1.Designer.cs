@@ -96,7 +96,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(21, 203);
+            this.label22.Location = new System.Drawing.Point(12, 156);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(65, 13);
             this.label22.TabIndex = 252;
@@ -104,7 +104,7 @@
             // 
             // txtPostnummer
             // 
-            this.txtPostnummer.Location = new System.Drawing.Point(24, 219);
+            this.txtPostnummer.Location = new System.Drawing.Point(15, 172);
             this.txtPostnummer.Name = "txtPostnummer";
             this.txtPostnummer.Size = new System.Drawing.Size(100, 20);
             this.txtPostnummer.TabIndex = 198;
@@ -112,7 +112,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(163, 160);
+            this.label21.Location = new System.Drawing.Point(154, 113);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(67, 13);
             this.label21.TabIndex = 251;
@@ -120,7 +120,7 @@
             // 
             // txtGatunummer
             // 
-            this.txtGatunummer.Location = new System.Drawing.Point(166, 176);
+            this.txtGatunummer.Location = new System.Drawing.Point(157, 129);
             this.txtGatunummer.Name = "txtGatunummer";
             this.txtGatunummer.Size = new System.Drawing.Size(100, 20);
             this.txtGatunummer.TabIndex = 197;
@@ -146,7 +146,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(477, 470);
+            this.label18.Location = new System.Drawing.Point(471, 364);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(64, 13);
             this.label18.TabIndex = 248;
@@ -155,7 +155,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(21, 470);
+            this.label17.Location = new System.Drawing.Point(9, 364);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(83, 13);
             this.label17.TabIndex = 247;
@@ -163,7 +163,7 @@
             // 
             // btnVisa_resultat
             // 
-            this.btnVisa_resultat.Location = new System.Drawing.Point(690, 429);
+            this.btnVisa_resultat.Location = new System.Drawing.Point(682, 630);
             this.btnVisa_resultat.Name = "btnVisa_resultat";
             this.btnVisa_resultat.Size = new System.Drawing.Size(103, 23);
             this.btnVisa_resultat.TabIndex = 246;
@@ -173,7 +173,7 @@
             // lbResultatlista
             // 
             this.lbResultatlista.FormattingEnabled = true;
-            this.lbResultatlista.Location = new System.Drawing.Point(480, 486);
+            this.lbResultatlista.Location = new System.Drawing.Point(474, 380);
             this.lbResultatlista.Name = "lbResultatlista";
             this.lbResultatlista.Size = new System.Drawing.Size(188, 277);
             this.lbResultatlista.TabIndex = 245;
@@ -181,7 +181,7 @@
             // RadioButton8
             // 
             this.RadioButton8.AutoSize = true;
-            this.RadioButton8.Location = new System.Drawing.Point(612, 434);
+            this.RadioButton8.Location = new System.Drawing.Point(611, 319);
             this.RadioButton8.Name = "RadioButton8";
             this.RadioButton8.Size = new System.Drawing.Size(60, 17);
             this.RadioButton8.TabIndex = 244;
@@ -192,7 +192,7 @@
             // RadioButton7
             // 
             this.RadioButton7.AutoSize = true;
-            this.RadioButton7.Location = new System.Drawing.Point(546, 434);
+            this.RadioButton7.Location = new System.Drawing.Point(545, 319);
             this.RadioButton7.Name = "RadioButton7";
             this.RadioButton7.Size = new System.Drawing.Size(60, 17);
             this.RadioButton7.TabIndex = 243;
@@ -203,7 +203,7 @@
             // RadioButton6
             // 
             this.RadioButton6.AutoSize = true;
-            this.RadioButton6.Location = new System.Drawing.Point(480, 434);
+            this.RadioButton6.Location = new System.Drawing.Point(479, 319);
             this.RadioButton6.Name = "RadioButton6";
             this.RadioButton6.Size = new System.Drawing.Size(60, 17);
             this.RadioButton6.TabIndex = 242;
@@ -214,7 +214,7 @@
             // rdoEjklubbmedlem
             // 
             this.rdoEjklubbmedlem.AutoSize = true;
-            this.rdoEjklubbmedlem.Location = new System.Drawing.Point(288, 199);
+            this.rdoEjklubbmedlem.Location = new System.Drawing.Point(279, 152);
             this.rdoEjklubbmedlem.Name = "rdoEjklubbmedlem";
             this.rdoEjklubbmedlem.Size = new System.Drawing.Size(99, 17);
             this.rdoEjklubbmedlem.TabIndex = 205;
@@ -241,7 +241,7 @@
             // Label15
             // 
             this.Label15.AutoSize = true;
-            this.Label15.Location = new System.Drawing.Point(973, 746);
+            this.Label15.Location = new System.Drawing.Point(982, 644);
             this.Label15.Name = "Label15";
             this.Label15.Size = new System.Drawing.Size(60, 13);
             this.Label15.TabIndex = 239;
@@ -249,7 +249,7 @@
             // 
             // btnLägg_till_i_tävling
             // 
-            this.btnLägg_till_i_tävling.Location = new System.Drawing.Point(24, 736);
+            this.btnLägg_till_i_tävling.Location = new System.Drawing.Point(12, 630);
             this.btnLägg_till_i_tävling.Name = "btnLägg_till_i_tävling";
             this.btnLägg_till_i_tävling.Size = new System.Drawing.Size(91, 23);
             this.btnLägg_till_i_tävling.TabIndex = 238;
@@ -260,7 +260,7 @@
             // Label14
             // 
             this.Label14.AutoSize = true;
-            this.Label14.Location = new System.Drawing.Point(474, 331);
+            this.Label14.Location = new System.Drawing.Point(474, 270);
             this.Label14.Name = "Label14";
             this.Label14.Size = new System.Drawing.Size(46, 13);
             this.Label14.TabIndex = 237;
@@ -268,7 +268,7 @@
             // 
             // btnUppdatera_resultat
             // 
-            this.btnUppdatera_resultat.Location = new System.Drawing.Point(558, 351);
+            this.btnUppdatera_resultat.Location = new System.Drawing.Point(558, 290);
             this.btnUppdatera_resultat.Name = "btnUppdatera_resultat";
             this.btnUppdatera_resultat.Size = new System.Drawing.Size(104, 23);
             this.btnUppdatera_resultat.TabIndex = 236;
@@ -277,7 +277,7 @@
             // 
             // txtResultat
             // 
-            this.txtResultat.Location = new System.Drawing.Point(477, 353);
+            this.txtResultat.Location = new System.Drawing.Point(477, 292);
             this.txtResultat.Name = "txtResultat";
             this.txtResultat.Size = new System.Drawing.Size(63, 20);
             this.txtResultat.TabIndex = 235;
@@ -287,8 +287,9 @@
             this.lbGolfspelare.FormattingEnabled = true;
             this.lbGolfspelare.Location = new System.Drawing.Point(480, 123);
             this.lbGolfspelare.Name = "lbGolfspelare";
-            this.lbGolfspelare.Size = new System.Drawing.Size(182, 199);
+            this.lbGolfspelare.Size = new System.Drawing.Size(182, 134);
             this.lbGolfspelare.TabIndex = 234;
+            this.lbGolfspelare.SelectedIndexChanged += new System.EventHandler(this.lbGolfspelare_SelectedIndexChanged);
             // 
             // lbTävlingar
             // 
@@ -302,7 +303,7 @@
             // cbMedlemsavgift
             // 
             this.cbMedlemsavgift.AutoSize = true;
-            this.cbMedlemsavgift.Location = new System.Drawing.Point(288, 234);
+            this.cbMedlemsavgift.Location = new System.Drawing.Point(279, 187);
             this.cbMedlemsavgift.Name = "cbMedlemsavgift";
             this.cbMedlemsavgift.Size = new System.Drawing.Size(94, 17);
             this.cbMedlemsavgift.TabIndex = 206;
@@ -312,7 +313,7 @@
             // rdoGreenfee
             // 
             this.rdoGreenfee.AutoSize = true;
-            this.rdoGreenfee.Location = new System.Drawing.Point(288, 164);
+            this.rdoGreenfee.Location = new System.Drawing.Point(279, 117);
             this.rdoGreenfee.Name = "rdoGreenfee";
             this.rdoGreenfee.Size = new System.Drawing.Size(69, 17);
             this.rdoGreenfee.TabIndex = 204;
@@ -323,7 +324,7 @@
             // rdoJunior
             // 
             this.rdoJunior.AutoSize = true;
-            this.rdoJunior.Location = new System.Drawing.Point(288, 134);
+            this.rdoJunior.Location = new System.Drawing.Point(279, 87);
             this.rdoJunior.Name = "rdoJunior";
             this.rdoJunior.Size = new System.Drawing.Size(53, 17);
             this.rdoJunior.TabIndex = 203;
@@ -334,7 +335,7 @@
             // rdoVilande
             // 
             this.rdoVilande.AutoSize = true;
-            this.rdoVilande.Location = new System.Drawing.Point(288, 99);
+            this.rdoVilande.Location = new System.Drawing.Point(279, 52);
             this.rdoVilande.Name = "rdoVilande";
             this.rdoVilande.Size = new System.Drawing.Size(60, 17);
             this.rdoVilande.TabIndex = 202;
@@ -345,7 +346,7 @@
             // rdoAktiv
             // 
             this.rdoAktiv.AutoSize = true;
-            this.rdoAktiv.Location = new System.Drawing.Point(288, 71);
+            this.rdoAktiv.Location = new System.Drawing.Point(279, 24);
             this.rdoAktiv.Name = "rdoAktiv";
             this.rdoAktiv.Size = new System.Drawing.Size(49, 17);
             this.rdoAktiv.TabIndex = 201;
@@ -477,7 +478,7 @@
             // 
             // btnTa_bort_spelare
             // 
-            this.btnTa_bort_spelare.Location = new System.Drawing.Point(153, 374);
+            this.btnTa_bort_spelare.Location = new System.Drawing.Point(144, 290);
             this.btnTa_bort_spelare.Name = "btnTa_bort_spelare";
             this.btnTa_bort_spelare.Size = new System.Drawing.Size(113, 23);
             this.btnTa_bort_spelare.TabIndex = 217;
@@ -487,7 +488,7 @@
             // 
             // btnUppdatera_golfspelare
             // 
-            this.btnUppdatera_golfspelare.Location = new System.Drawing.Point(121, 736);
+            this.btnUppdatera_golfspelare.Location = new System.Drawing.Point(109, 630);
             this.btnUppdatera_golfspelare.Name = "btnUppdatera_golfspelare";
             this.btnUppdatera_golfspelare.Size = new System.Drawing.Size(65, 23);
             this.btnUppdatera_golfspelare.TabIndex = 216;
@@ -498,7 +499,7 @@
             // lbMedlemsregister
             // 
             this.lbMedlemsregister.FormattingEnabled = true;
-            this.lbMedlemsregister.Location = new System.Drawing.Point(24, 486);
+            this.lbMedlemsregister.Location = new System.Drawing.Point(12, 380);
             this.lbMedlemsregister.Name = "lbMedlemsregister";
             this.lbMedlemsregister.Size = new System.Drawing.Size(242, 238);
             this.lbMedlemsregister.TabIndex = 215;
@@ -506,7 +507,7 @@
             // 
             // btnRegistrera
             // 
-            this.btnRegistrera.Location = new System.Drawing.Point(191, 268);
+            this.btnRegistrera.Location = new System.Drawing.Point(182, 221);
             this.btnRegistrera.Name = "btnRegistrera";
             this.btnRegistrera.Size = new System.Drawing.Size(75, 23);
             this.btnRegistrera.TabIndex = 207;
@@ -517,7 +518,7 @@
             // Label6
             // 
             this.Label6.AutoSize = true;
-            this.Label6.Location = new System.Drawing.Point(21, 255);
+            this.Label6.Location = new System.Drawing.Point(12, 208);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(53, 13);
             this.Label6.TabIndex = 214;
@@ -526,7 +527,7 @@
             // Label5
             // 
             this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(163, 203);
+            this.Label5.Location = new System.Drawing.Point(154, 156);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(32, 13);
             this.Label5.TabIndex = 213;
@@ -535,7 +536,7 @@
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.Location = new System.Drawing.Point(163, 107);
+            this.Label4.Location = new System.Drawing.Point(154, 60);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(32, 13);
             this.Label4.TabIndex = 212;
@@ -544,7 +545,7 @@
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(21, 160);
+            this.Label3.Location = new System.Drawing.Point(12, 113);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(61, 13);
             this.Label3.TabIndex = 211;
@@ -553,7 +554,7 @@
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(21, 107);
+            this.Label2.Location = new System.Drawing.Point(12, 60);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(134, 13);
             this.Label2.TabIndex = 210;
@@ -562,7 +563,7 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(163, 56);
+            this.Label1.Location = new System.Drawing.Point(154, 9);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(55, 13);
             this.Label1.TabIndex = 209;
@@ -571,7 +572,7 @@
             // Förnamn
             // 
             this.Förnamn.AutoSize = true;
-            this.Förnamn.Location = new System.Drawing.Point(21, 53);
+            this.Förnamn.Location = new System.Drawing.Point(12, 6);
             this.Förnamn.Name = "Förnamn";
             this.Förnamn.Size = new System.Drawing.Size(48, 13);
             this.Förnamn.TabIndex = 208;
@@ -579,56 +580,56 @@
             // 
             // txtHandicap
             // 
-            this.txtHandicap.Location = new System.Drawing.Point(24, 271);
+            this.txtHandicap.Location = new System.Drawing.Point(15, 224);
             this.txtHandicap.Name = "txtHandicap";
             this.txtHandicap.Size = new System.Drawing.Size(100, 20);
             this.txtHandicap.TabIndex = 200;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(166, 219);
+            this.txtEmail.Location = new System.Drawing.Point(157, 172);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
             this.txtEmail.TabIndex = 199;
             // 
             // txtMobil
             // 
-            this.txtMobil.Location = new System.Drawing.Point(166, 123);
+            this.txtMobil.Location = new System.Drawing.Point(157, 76);
             this.txtMobil.Name = "txtMobil";
             this.txtMobil.Size = new System.Drawing.Size(100, 20);
             this.txtMobil.TabIndex = 195;
             // 
             // txtGatuadress
             // 
-            this.txtGatuadress.Location = new System.Drawing.Point(24, 176);
+            this.txtGatuadress.Location = new System.Drawing.Point(15, 129);
             this.txtGatuadress.Name = "txtGatuadress";
             this.txtGatuadress.Size = new System.Drawing.Size(100, 20);
             this.txtGatuadress.TabIndex = 196;
             // 
             // txtPersonnr
             // 
-            this.txtPersonnr.Location = new System.Drawing.Point(24, 123);
+            this.txtPersonnr.Location = new System.Drawing.Point(15, 76);
             this.txtPersonnr.Name = "txtPersonnr";
             this.txtPersonnr.Size = new System.Drawing.Size(100, 20);
             this.txtPersonnr.TabIndex = 194;
             // 
             // txtEfternamn
             // 
-            this.txtEfternamn.Location = new System.Drawing.Point(166, 72);
+            this.txtEfternamn.Location = new System.Drawing.Point(157, 25);
             this.txtEfternamn.Name = "txtEfternamn";
             this.txtEfternamn.Size = new System.Drawing.Size(100, 20);
             this.txtEfternamn.TabIndex = 193;
             // 
             // txtFornamn
             // 
-            this.txtFornamn.Location = new System.Drawing.Point(24, 69);
+            this.txtFornamn.Location = new System.Drawing.Point(15, 22);
             this.txtFornamn.Name = "txtFornamn";
             this.txtFornamn.Size = new System.Drawing.Size(100, 20);
             this.txtFornamn.TabIndex = 192;
             // 
             // txtTaBortId
             // 
-            this.txtTaBortId.Location = new System.Drawing.Point(24, 376);
+            this.txtTaBortId.Location = new System.Drawing.Point(15, 292);
             this.txtTaBortId.Name = "txtTaBortId";
             this.txtTaBortId.Size = new System.Drawing.Size(100, 20);
             this.txtTaBortId.TabIndex = 254;
@@ -636,7 +637,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(21, 353);
+            this.label23.Location = new System.Drawing.Point(12, 269);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(65, 13);
             this.label23.TabIndex = 255;
@@ -647,7 +648,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1042, 766);
+            this.ClientSize = new System.Drawing.Size(1042, 676);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.txtTaBortId);
             this.Controls.Add(this.label22);
